@@ -459,7 +459,7 @@ public class MainFrame extends JFrame{
                     s.leaveGroup(InetAddress.getByName(msgroup));
                     s.close();
                 } catch (IOException | InterruptedException e) {
-                    JOptionPane.showMessageDialog(THIS, "Вы не подключены к сети", "Ошибка", JOptionPane.ERROR_MESSAGE);
+                    JOptionPane.showMessageDialog(THIS, "Вы не подключены к сети", "Error", JOptionPane.ERROR_MESSAGE);
                 }
             }
         }).start();
